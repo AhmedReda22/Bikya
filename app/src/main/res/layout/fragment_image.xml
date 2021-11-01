@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:id="@+id/fragment_container2"
+    tools:context=".Fragments.ImageFragment">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:src="@drawable/user"
+        app:civ_border_color="#FF000000"
+        android:layout_centerInParent="true"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your photo"
+        android:layout_margin="@dimen/_10sdp"
+        android:gravity="center"
+        android:layout_below="@+id/profile_image"
+        android:textColor="@color/green"
+        android:textSize="@dimen/_30sdp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="SKIP"
+        android:textStyle="bold"
+        android:padding="@dimen/_5sdp"
+        android:layout_margin="@dimen/_15sdp"
+        android:textSize="@dimen/_20sdp"
+        />
+
+    <com.theartofdev.edmodo.cropper.CropImageView
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</RelativeLayout>
+
+
+
+</FrameLayout>

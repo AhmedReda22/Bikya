@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    android:id="@+id/fragment_container"
+    tools:context=".Fragments.UserFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_12sdp"
+        android:orientation="vertical">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/user"
+            >
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_margin="@dimen/_15sdp"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_margin="@dimen/_15sdp"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="italic"
+            />
+
+
+        <TextView
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_margin="@dimen/_15sdp"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="italic"
+            />
+
+        <Button
+            android:id="@+id/my_orders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Orders"
+            android:textSize="@dimen/_20sdp"
+            android:elevation="@dimen/_9sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:background="@drawable/button"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/my_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Location"
+            android:textSize="@dimen/_20sdp"
+            android:elevation="@dimen/_9sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:background="@drawable/button"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Your Data"
+            android:textSize="@dimen/_20sdp"
+            android:elevation="@dimen/_9sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:background="@drawable/button"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log out"
+            android:textColor="#000"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/logout_btn"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20sdp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AboutFragment"
+    android:background="#68C66C">
+
+
+    <TextView
+        android:id="@+id/bikya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="كيــف استبدل؟"
+        android:textStyle="bold"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="@dimen/_45sdp"
+        android:textAlignment="center"
+        android:layout_margin="@dimen/_20sdp"/>
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/black"
+        android:padding="@dimen/_3sdp"
+        android:layout_alignBottom="@+id/bikya"
+        android:layout_marginBottom="-51dp"
+        android:layout_marginRight="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="50 نقطة = كيس سكر أو 10 جنية"
+        />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt1"
+        android:layout_marginBottom="-51dp"
+        android:padding="@dimen/_3sdp"
+        android:layout_marginRight="@dimen/_6sdp"
+        android:text="70 نقطة = ربع كيلو شاي أو 20 جنية"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp" />
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt2"
+        android:layout_marginBottom="-51dp"
+        android:padding="@dimen/_3sdp"
+        android:text="80 نقطة = زجاجة زيت 1 لتر أو 30 جنية"
+        android:textColor="@color/black"
+        android:layout_marginRight="@dimen/_6sdp"
+        android:textSize="@dimen/_20sdp" />
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt3"
+        android:layout_marginBottom="-51dp"
+        android:padding="@dimen/_3sdp"
+        android:layout_marginRight="@dimen/_6sdp"
+        android:text="100 نقطة = نصف كبلو شاي أو 40 جنية"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp" />
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt4"
+        android:layout_marginBottom="-51dp"
+        android:layout_marginRight="@dimen/_6sdp"
+        android:padding="@dimen/_3sdp"
+        android:text="125 نقطة = زجاجة زيت 2 لتر أو 50 جنية"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp" />
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt5"
+        android:layout_marginBottom="-51dp"
+        android:padding="@dimen/_3sdp"
+        android:layout_marginRight="@dimen/_6sdp"
+        android:text="150 نقطة = زجاجة بريل 3 L أو 60 جنية"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp" />
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt6"
+        android:layout_marginBottom="-51dp"
+        android:layout_marginRight="@dimen/_6sdp"
+        android:padding="@dimen/_3sdp"
+        android:text="175 نقطة = كيلو كاكاو أو 70 جنية"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp" />
+    <TextView
+        android:id="@+id/txt8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt7"
+        android:layout_marginBottom="-51dp"
+        android:layout_marginRight="@dimen/_6sdp"
+        android:padding="@dimen/_3sdp"
+        android:text="200 نقطة = 2 كيلو اريال أو 80 جنية"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp" />
+
+    <TextView
+        android:id="@+id/msg"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt8"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginBottom="-56dp"
+        android:text="من نحن؟ وما هو هدفنا؟"
+        android:textAlignment="center"
+        android:textSize="@dimen/_31sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/msg"
+        android:layout_marginRight="@dimen/_6sdp"
+        android:layout_marginBottom="-158dp"
+        android:padding="@dimen/_3sdp"
+        android:text="شركة بيــكيا هي أول شركة في مصر و الوطن العربي تهدف نحو السعي علي نظافة البيئة عن طريق تشجيع الناس بمكافئات مادية وهدايا لاعادة التدوير"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp" />
+
+
+</RelativeLayout>

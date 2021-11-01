@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "905156690206",
+    "project_id": "bekyaapp",
+    "storage_bucket": "bekyaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905156690206:android:a6097b547868251a4f090f",
+        "android_client_info": {
+          "package_name": "com.ahmedreda.bekia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905156690206-ll5liatm3daut012jtesgst73qagm032.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahmedreda.bekia",
+            "certificate_hash": "0d0f6e3d77050c46a0de46c607f2cc1e4a85a7ad"
+          }
+        },
+        {
+          "client_id": "905156690206-4sse74hpao01tn413e4fbins0gc497lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfqu2yRvtXst7vnM6hud4DwgIraVGGkHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905156690206-4sse74hpao01tn413e4fbins0gc497lk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
